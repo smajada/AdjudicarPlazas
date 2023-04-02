@@ -38,7 +38,11 @@ public class Plazas {
     
     @Override
     public String toString() {
-        return "ID Plaza: " + ID + "\n Tipo: " + tipoPlaza + "\n Adjudicada: " + adjudicada + "\n" + persona;
+        if (adjudicada) {
+            return "ID Plaza: " + ID + "\n Tipo: " + tipoPlaza + "\n Adjudicada: ADJUDICADA" + "\n" + persona;
+        } else {
+            return "ID Plaza: " + ID + "\n Tipo: " + tipoPlaza + "\n Adjudicada: NO ADJUDICADA" ;
+        }
     }
 
     

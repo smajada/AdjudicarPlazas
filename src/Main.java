@@ -54,7 +54,6 @@ public class Main {
                     punctSanitarios = sanitario.getDiasTrabajados(); 
                     highPunctSanitarios = sanitario; //Ese sanitario es el de mayor puntuación actual
                 }
-
             }
         }
         //Retornamos el sanitario con mayor puntuación
