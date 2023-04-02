@@ -1,18 +1,20 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Adjudicar Plaza
 
-## Folder Structure
+This project is a response to a class exercise, in which an attempt is made to allocate a defined number of places to a number of people who can be either teachers or healthcare workers.
 
-The workspace contains two folders by default, where:
+## Run Locally
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Clone the project
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```bash
+  git clone git@github.com:smajada/AdjudicarPlazas.git
+```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Go to the project directory
 
-## Dependency Management
+```bash
+  cd AdjudicarPlazas
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Run main file
